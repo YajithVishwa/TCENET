@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         super.onDestroy();
         progressDialog.stop();
     }

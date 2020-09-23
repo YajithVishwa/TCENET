@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SplashActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:maxHeight="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:minHeight="0dp"
+        app:srcCompat="@drawable/tce_logo" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="IT DEPT PRESENTS"
+        android:textAlignment="center"
+        android:textColor="#EE000000"
+        android:layout_marginLeft="15dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
